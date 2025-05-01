@@ -46,8 +46,6 @@ body {
   display: inline-block;
 }
 
-
-
 /* Container principale */
 .calculator-container {
   width: 90%;
@@ -357,5 +355,23 @@ button:active {
 @media (max-width: 360px) {
   .calculator-title {
     font-size: 1.8rem;
+  }
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* Adattamento per dispositivi mobili */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.8rem;
+    margin-top: 20px;
   }
 }
